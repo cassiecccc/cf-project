@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image" href="img/images.png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav-profile">
+          <img id="logo" src="img/images.png" alt="logo" />
+          <h1>Cassie Du</h1>
+        </div>
+        <ul id="menu" role="menubar">
+          <li id="menu-item" role="presentation">
+            <a href="index.html" role="menuitem">Home</a>
+          </li>
+          <li id="menu-item" role="presentation">
+            <a href="about.html" role="menuitem">About</a>
+          </li>
+          <li id="menu-item" role="presentation">
+            <a href="work.html" role="menuitem">Work</a>
+          </li>
+          <li id="menu-item" role="presentation">
+            <a href="contact.html" role="menuitem">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>Contact</p>
+      <br />
+      <ul role="menubar">
+        <li role="presentation">
+          Email:
+          <a href="mailto:cassieducc@gmail.com" role="menuitem"
+            >cassieducc@gmail.com</a
+          >
+        </li>
+        <li role="presentation">Tel: <a href="+1111111111">+1111111111</a></li>
+      </ul>
+      <br />
+      <div id="contact-form">
+        <form action="" method="get">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" required />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send message" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Find me on</p>
+      <div id="footer-logo">
+        <img src="img/facebook icon.svg" alt="facebook icon" />
+        <img src="img/github icon.svg" alt="github icon" />
+        <img src="img/twitter icon.svg" alt="twitter icon" />
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
