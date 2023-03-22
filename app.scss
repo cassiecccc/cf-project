@@ -14,8 +14,16 @@
   flex-direction: column;
 }
 
+//variables
+$background-color: bisque;
+$a-visited-color: black;
+$a-hover-color: blueviolet;
+$a-active-color: blue;
+$button-background: orange;
+$button-hover: violet;
+
 body {
-  background-color: bisque;
+  background-color: $background-color;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -26,27 +34,27 @@ body {
 }
 
 a:visited {
-  color: black;
+  color: $a-visited-color;
 }
 
 a:hover {
-  color: blueviolet;
+  color: $a-hover-color;
   transition-delay: 0.2s;
 }
 
 a:active {
-  color: blue;
+  color: $a-active-color;
 }
 
 button {
   border: none;
-  background-color: orange;
+  background-color: $button-background;
   cursor: grab;
   font-size: 2rem;
 }
 
 button:hover {
-  background-color: violet;
+  background-color: $button-hover;
   transition: 0.9s;
 }
 
@@ -65,11 +73,11 @@ nav {
   }
   #menu {
     display: flex;
-    #menu-item {
+    .menu-item {
       list-style: none;
       margin-left: 1rem;
     }
-    #menu-item > a {
+    .menu-item > a {
       text-decoration: none;
     }
   }
