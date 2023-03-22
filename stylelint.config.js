@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    "at-rule-no-unknown": true,
+    "at-rule-no-unknown": null,
     "block-no-empty": true,
     "color-no-invalid-hex": true,
     "comment-no-empty": true,
