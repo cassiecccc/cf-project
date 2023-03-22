@@ -8,7 +8,9 @@
   margin: 0;
 }
 
-footer, main, body {
+footer,
+main,
+body {
   display: flex;
   flex-direction: column;
 }
@@ -137,4 +139,4 @@ footer {
   #work-h1 {
     font-size: 1rem;
   }
-}/*# sourceMappingURL=app.css.map */
+} /*# sourceMappingURL=app.css.map */
